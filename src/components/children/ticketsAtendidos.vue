@@ -70,12 +70,20 @@
                     Fecha
                 </th>
                 <th>
+                    Fecha de atención
+                </th>
+                <th>
+                    Tiempo de espera (Hrs)
+                </th>
+                <th>
                     Acciones
                 </th>
             </tr>
         </thead>
         <tbody>
             <tr v-for="consulta in consulta">
+                <td>{{ }}</td>
+                <td>{{ }}</td>
                 <td>{{ }}</td>
                 <td>{{ }}</td>
                 <td>{{ }}</td>

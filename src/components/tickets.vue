@@ -5,7 +5,7 @@
        
        
       </v-toolbar>
-      <v-tabs v-model="tabs" centered bg-color="rgba(232, 232, 232, 1)" color="white"
+      <v-tabs v-model="tabs" centered bg-color="rgba(232, 232, 232, 1)" color="rgba(10, 10, 10, 0.45)"
         id="estiloTab">
         <v-tab value="tab1"> Tickets pendientes </v-tab>
         <v-tab value="tab2"> Tickets en seguimiento </v-tab>
@@ -14,13 +14,13 @@
   
       <v-window v-model="tabs">
         <v-window-item value="tab1">
-          <fichaId></fichaId>
+          <ticketsPendientes></ticketsPendientes>
         </v-window-item>
         <v-window-item value="tab2">
-          <historialaboral></historialaboral>
+          <ticketsSeguimiento></ticketsSeguimiento>
         </v-window-item>
         <v-window-item value="tab3">
-          <historialFamiliar></historialFamiliar>
+          <ticketsAtendidos></ticketsAtendidos>
         </v-window-item>
        
       </v-window>
@@ -29,11 +29,16 @@
   
   <script>
   import router from "@/main";
+  import ticketsPendientes from "@/components/children/ticketsPendientes.vue";
+  import ticketsSeguimiento from "@/components/children/ticketsSeguimiento.vue";
+  import ticketsAtendidos from "@/components/children/ticketsAtendidos.vue";
   
   
   export default {
     components: {
-     
+     ticketsPendientes,
+     ticketsSeguimiento,
+     ticketsAtendidos,
     },
   
     data() {
