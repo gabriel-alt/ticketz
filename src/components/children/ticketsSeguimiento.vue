@@ -6,15 +6,10 @@
     <v-row style="margin-top:1%;">
         <v-col></v-col>
         <v-col>
-            <v-btn :loading="loading" style="color: white" block color="rgba(0,140,143,0.8)" size="large" @click="guardar()">
+            <v-btn :loading="loading" style="color: white" block color="rgba(0,140,143,0.8)" class="styleList" size="large" @click="guardar()">
                 EXPORTAR A EXCEL
             </v-btn>
             <br />
-        </v-col>
-        <v-col> 
-            <v-btn :loading="loading" style="color: white" block color="rgba(0,140,143,0.8)" size="large" @click="guardar()">
-                AGREGAR EQUIPO
-            </v-btn>
         </v-col>
         <v-col> </v-col>
     </v-row>
@@ -48,7 +43,7 @@
     <v-row style="margin-top:1%;">
         <v-col></v-col>
         <v-col>
-            <v-btn :loading="loading" style="color: white" block color="rgba(1, 1, 17, 0.356)" size="large"
+            <v-btn :loading="loading" style="color: white" block color="rgba(1, 1, 17, 0.356)" class="styleList" size="large"
                 @click="consultar()">
                 Consultar
             </v-btn>
@@ -111,4 +106,16 @@ export default {
 
 </script>
 
-<style></style>
+<style>
+.styleList {
+  background: white;
+
+}
+
+.styleList:hover {
+  background: rgba(1, 1, 17, 0.356);
+  color: white;
+  box-shadow: 0 0 10px rgb(39, 39, 39);
+
+}
+</style>

@@ -17,7 +17,7 @@
           value="inicio"></v-list-item>
         <v-list-item @click="show_tickets()" class="styleList" prepend-icon="mdi-ticket" title="Tickets"
           value="calendario"></v-list-item>
-        <v-list-item @click="showPagBar()" class="styleList" prepend-icon="mdi-laptop" title="Equipos"
+        <v-list-item @click="show_equipos()" class="styleList" prepend-icon="mdi-laptop" title="Equipos"
           value="historial"></v-list-item>
         <v-list-item @click="showConsulta()" class="styleList" prepend-icon="mdi-human" title="Usuarios"
           value="consulta"></v-list-item>
@@ -60,6 +60,7 @@
 import router from "@/main";
 import dashboard from "@/components/dashboard.vue";
 import tickets from "@/components/tickets.vue";
+import equipos from "@/components/equipos.vue";
 
 
 
@@ -80,6 +81,10 @@ export default {
     {
       path: 'tickets',
       component: tickets,
+    },
+    {
+      path: 'equipos',
+      component: equipos,
     }
 
 
@@ -110,6 +115,10 @@ export default {
 
     show_tickets(){
       router.push('tickets')
+    },
+
+    show_equipos(){
+      router.push('equipos')
     },
 
 

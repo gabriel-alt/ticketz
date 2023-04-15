@@ -3,10 +3,7 @@
     <v-container style="background-color: white; min-height: 100%;">
       <v-toolbar color="white" title="Dashboard">
        
-        <v-btn @click="ir_a_consulta()" rounded="lg" color="white" style="background-color:rgb(20, 49, 110);">
-          <v-icon start icon="mdi-arrow-right"></v-icon>
-          Ir a consulta
-        </v-btn>
+        
       </v-toolbar>
       <v-tabs v-model="tabs" centered bg-color="rgba(232, 232, 232, 1)" color="white"
         id="estiloTab">
