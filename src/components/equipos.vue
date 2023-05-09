@@ -12,8 +12,9 @@
       <v-tabs v-model="tabs" centered bg-color="rgba(232, 232, 232, 1)" color="rgba(10, 10, 10, 0.45)"
         id="estiloTab">
         <v-tab value="tab1"> Activos </v-tab>
-        <v-tab value="tab2"> Tickets en seguimiento </v-tab>
-        <v-tab value="tab3"> Tickets atendidos </v-tab>
+        <v-tab value="tab2"> Pendientes por Asignar </v-tab>
+        <v-tab value="tab3"> Bajas </v-tab>
+        <v-tab value="tab4"> Legal </v-tab>
       </v-tabs>
   
       <v-window v-model="tabs">
