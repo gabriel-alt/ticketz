@@ -15,6 +15,8 @@ import soporte from './views/soporte.vue';
 import dashboard from './components/dashboard.vue';
 import tickets from './components/tickets.vue';
 import equipos from './components/equipos.vue';
+// import Vue3EasyDataTable from 'vue3-easy-data-table';
+// import 'vue3-easy-data-table/dist/style.css';
 
 
 const routes = [
@@ -60,6 +62,7 @@ const router = createRouter({
 
 // Create the app
 const app = createApp(App);
+
 app.use(router);
 // app.use(VueSweetalert2);
 registerPlugins(app);

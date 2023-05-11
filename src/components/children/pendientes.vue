@@ -47,25 +47,22 @@
                     #
                 </th>
                 <th>
-                    Usuario
+                    Serie
+                </th>
+                <th>
+                    Marca
                 </th>
                 <th>
                     Tipo
                 </th>
                 <th>
-                    Puesto
+                    Procesador
                 </th>
                 <th>
-                    Departamento
-                </th>
-                <th>
-                    Zona
+                    Memoria
                 </th>
                 <th>
                     AnyDesk
-                </th>
-                <th>
-                    Correo
                 </th>
                 <th>
                     Accines

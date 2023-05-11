@@ -68,7 +68,7 @@
                     Correo
                 </th>
                 <th>
-                    Accines
+                    Acciones
                 </th>
             </tr>
         </thead>

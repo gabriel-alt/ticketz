@@ -47,25 +47,19 @@
                     #
                 </th>
                 <th>
-                    Usuario
+                    Serie
+                </th>
+                <th>
+                    Marca
                 </th>
                 <th>
                     Tipo
                 </th>
                 <th>
-                    Puesto
+                    Fecha de baja
                 </th>
                 <th>
-                    Departamento
-                </th>
-                <th>
-                    Zona
-                </th>
-                <th>
-                    AnyDesk
-                </th>
-                <th>
-                    Correo
+                    Comentarios
                 </th>
                 <th>
                     Accines

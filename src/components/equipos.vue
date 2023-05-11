@@ -22,24 +22,31 @@
           <activos></activos>
         </v-window-item>
         <v-window-item value="tab2">
-          <ticketsSeguimiento></ticketsSeguimiento>
+          <pendientes></pendientes>
         </v-window-item>
         <v-window-item value="tab3">
-          <ticketsAtendidos></ticketsAtendidos>
+          <bajas></bajas>
         </v-window-item>
-       
+       <legal></legal>
       </v-window>
     </v-container>
   </template>
   
   <script>
   import router from "@/main";
-  import activos from "@/components/children/activos.vue"; 
+  import activos from "@/components/children/activos.vue";
+  import pendientes from "@/components/children/pendientes.vue";
+  import bajas from "@/components/children/bajas.vue";
+  import legal from "@/components/children/legal.vue";
+  
   
   
   export default {
     components: {
      activos,
+     pendientes,
+     bajas,
+     legal,
     
     },
   
